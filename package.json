@@ -1,0 +1,25 @@
+{
+  "name": "api-pagination",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esbuild-register index.ts",
+    "bench": "node -r esbuild-register bench.ts",
+    "seed": "node -r esbuild-register seed.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinyhttp/app": "^2.0.29",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "esbuild": "^0.17.8",
+    "esbuild-register": "^3.4.2"
+  }
+}
